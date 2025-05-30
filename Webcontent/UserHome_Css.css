@@ -1,0 +1,149 @@
+/* ========== Reset & Base Styles ========== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    background: #121212 url('sandy.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0e0e0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* ========== Header ========== */
+.hd {
+    text-align: center;
+    font-size: 48px;
+    color: red;
+    font-weight: 800;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 10px rgba(0, 255, 255, 0.4);
+}
+
+/* ========== Main Content Box ========== */
+.main {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 18px;
+    color: #ff5252;
+}
+
+/* ========== Navigation Menu Buttons ========== */
+.menu {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #212121;
+    color: #00e5ff;
+    font-weight: bold;
+    border: 2px solid #00e5ff;
+    border-radius: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.menu:hover {
+    background-color: #00e5ff;
+    color: #000;
+    box-shadow: 0 0 10px #00e5ff;
+    transform: scale(1.05);
+}
+
+/* ========== Links ========== */
+a {
+    color: #ff4081;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #69f0ae;
+}
+
+/* ========== Table Container ========== */
+.tab {
+    background-color: #1c1c1c;
+    padding: 25px;
+    border-radius: 18px;
+    max-width: 1000px;
+    margin: 40px auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* ========== Home Button ========== */
+.home {
+    display: inline-block;
+    background-color: #ffca28;
+    color: #0d47a1;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: 2px solid #0d47a1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home:hover {
+    background-color: #ffd740;
+    color: #000;
+    transform: translateY(-2px);
+}
+
+/* ========== Table Styles ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 14px 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #263238;
+    color: #00bcd4;
+    font-size: 18px;
+}
+
+td {
+    font-size: 16px;
+}
+
+tr:hover {
+    background-color: #37474f;
+}
+
+/* ========== Utility Colors ========== */
+.yel { color: #ffd740; }
+.red { color: #ff5252; }
+.green { color: #00e676; }
+.brown { color: #8d6e63; }
+
+/* ========== Footer ========== */
+footer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
